@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Grape+Nuts&family=Lexend+Peta:wght@100;200;300;400;500;600;700;800;900&family=Mochiy+Pop+P+One&family=Outfit:wght@100;200;300;400;500;600;700;800;900&family=Playfair+Display:ital,wght@1,800&family=Poppins:ital,wght@0,300;1,200&family=Righteous&family=Roboto+Mono:wght@700&family=Smooch&display=swap');
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.display {
+    width: 500px;
+    padding: 12px;
+    border: 2px solid gray;
+    background-color: gray;
+    color: white;
+    border-radius: 1.3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.body {
+    width: 500px;
+    padding: 12px;
+    border-radius: 1.3rem;
+    background-color: gray;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: repeat(4, minmax(80px, 1fr));
+    grid-gap: 5px;
+    gap: 5px;
+}
+
+.textt {
+    overflow: hidden;
+    width: 500px;
+    padding: 10px;
+    height: 80px;
+    border-radius: 1.3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    background-color: gray;
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    font-weight: bolder;
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: bolder;
+    justify-content: center;
+    background-color: orange;
+    border: 1px solid orange;
+    border-radius: 1.3rem;
+    height: 50px;
+}
+
+.btnred {
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: bolder;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: red;
+    border: 1px solid red;
+    border-radius: 1.3rem;
+    height: 50px;
+}
+
+.btngrey {
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    font-weight: bolder;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(150, 110, 110);
+    border: 1px solid rgb(150, 110, 110);
+    border-radius: 1.3rem;
+    height: 50px;
+}
